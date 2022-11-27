@@ -46,6 +46,18 @@ if (qrySpChars) {
   avalChars += spChars
 }
 
+if (
+    !qrySmLttrs && !qryCapLttrs && !qryNbrs && !qrySpChars
+  ) {
+    return alert('Please select at least one criteria!');
+    
+  }
+  
+  for (var i = 0; i < pwLength; i++) {
+    password +=avalChars[Math.floor(Math.random () * avalChars.length)];
+  }
+  return password;
+  }
   
   function writePassword() {
     var password = generatePassword();
