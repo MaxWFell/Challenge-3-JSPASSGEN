@@ -17,7 +17,7 @@ N/A
 
 Used to create secure passwords
 ![alt text](assets/Screen%20Shot%202022-11-27%20at%204.36.53%20PM.png)
-![alt text]
+![alt text] (https://maxwfell.github.io/Challenge-3-JSPASSGEN/)
 
 
 ## License
