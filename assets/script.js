@@ -9,6 +9,7 @@ function generatePassword(){
   var password = '';
   var avalChars = '';
 
+// Determine the desired length of the password.
 var pwLength = prompt('Please indicate a password length between 8 and 128.')
 
 if (pwLength >= 8 && pwLength <= 128) {
@@ -28,4 +29,20 @@ var qryNbrs = confirm('Do you want to use numbers (0-9) in your password?')
 
 var qrySpChars = confirm ('Do you want to use special characters (!#$%&\'()*+,-./:;<=>?@[]^_`{|}~) letters in your password?')
 
+
+if (qrySmLttrs) {
+  avalChars += smLttrs
+}
+
+if (qryCapLttrs) {
+  avalChars += capLttrs
+}
+
+if (qryNbrs) {
+  avalChars += nbrs
+}
+
+if (qrySpChars) {
+  avalChars += spChars
+}
 
