@@ -16,7 +16,6 @@ body {
   font-family: sans-serif;
 }
 
-​h1,
 h2,
 h3,
 h4,
@@ -25,7 +24,6 @@ h6 {
   font-size: 100%;
 }
 
-​input,
 select,
 option,
 optgroup,
@@ -37,7 +35,7 @@ code {
   font-family: inherit;
 }
 
-​ol,
+
 ul {
   list-style: none;
 }
