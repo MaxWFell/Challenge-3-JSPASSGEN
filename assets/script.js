@@ -15,7 +15,7 @@ var pwLength = prompt('Please indicate a password length between 8 and 128.')
 if (pwLength >= 8 && pwLength <= 128) {
   console.log(pwLength)
 }
-
+//setting conditions, making the console aware of the users options and criteria.
 else {
   alert('Password must contain atleast 8 characters and no more than 128. \nPlease enter a valid number between 8 & 128.')
   return '';
@@ -29,7 +29,7 @@ var qryNbrs = confirm('Do you want to use numbers (0-9) in your password?')
 
 var qrySpChars = confirm ('Do you want to use special characters (!#$%&\'()*+,-./:;<=>?@[]^_`{|}~) letters in your password?')
 
-
+//putting this gathered info to work
 if (qrySmLttrs) {
   avalChars += smLttrs
 }
@@ -45,7 +45,7 @@ if (qryNbrs) {
 if (qrySpChars) {
   avalChars += spChars
 }
-
+//requires one selection so there is a password to generate.
 if (
     !qrySmLttrs && !qryCapLttrs && !qryNbrs && !qrySpChars
   ) {
